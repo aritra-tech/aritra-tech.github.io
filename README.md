@@ -3,7 +3,7 @@
 <h1>Personal Portfolio Website</h1>
 
 <h2>
-  <a href="https://aritra-tech.github.io/aritradas.github.io/">aritradas.github.io</a>
+  <a href="https://aritra-tech.github.io//">aritradas.github.io</a>
 </h2>
 </div>
 
