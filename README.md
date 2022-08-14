@@ -9,7 +9,7 @@
 <div align="center">
   <a href="https://github.com/aritra-tech/aritra-tech.github.io"><img src="https://sloc.xyz/github/aritra-tech/aritra-tech.github.io" alt="Total lines"></a>
   <a href="https://github.com/aritra-tech/aritra-tech.github.io"><img src="https://visitor-badge.laobi.icu/badge?page_id=aritra-tech/aritra-tech.github.io" alt="Number of Visitors"></a>
-  <a href="https://aritra-tech.github.io/"><img src="https://img.shields.io/badge/website-up-brightgreen" alt="website up"></a>
+  
 </div>
 
 
