@@ -5,7 +5,7 @@
 :root{
     --header-height: 3rem;
 
-    --hue-color: 250;
+    --hue-color: 142;
 
     --first-color: hsl(var(--hue-color), 69%, 61%);    /*hsl(hue,saturation,lightness)*/
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -236,4 +236,42 @@ img{
 }
 .home__description{
     margin-bottom: var(--mb-2);
+}
+/*==== Buttons ====*/
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-mediun);
+}
+.button:hover{
+    background-color: var(--first-color-alt);
+}
+.button__icon{
+    font-size: 1.25rem;
+    margin-left: .5rem;
+    transition: .3s;
+}
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+}
+
+/*==== About ====*/
+.about__img{
+    width: 200px;
+    
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
+.about__description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+.about__buttons{
+    display: flex;
+    justify-content: center;
 }
