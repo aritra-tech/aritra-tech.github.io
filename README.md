@@ -1,10 +1,11 @@
 <div align="center">
 
 <h1>Personal Portfolio Website</h1>
-
+<!--
 <h2>
   <a href="https://aritra-tech.github.io//">aritradas.github.io</a>
 </h2>
+-->
 </div>
 <div align="center">
   <a href="https://github.com/aritra-tech/aritra-tech.github.io"><img src="https://sloc.xyz/github/aritra-tech/aritra-tech.github.io" alt="Total lines"></a>
