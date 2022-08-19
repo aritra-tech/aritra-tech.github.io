@@ -10,7 +10,7 @@
     --first-color: hsl(var(--hue-color), 69%, 61%);    /*hsl(hue,saturation,lightness)*/
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-    --first-color-light: hsl(var(--hue-color), 92%, 85%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
     --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);            
@@ -274,4 +274,109 @@ img{
 .about__buttons{
     display: flex;
     justify-content: center;
+}
+/*==== Skills ====*/
+
+.skills__container{
+    row-gap: 0;
+}
+.skills__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+}
+.skills__icon,
+.skills__arrow{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+.skills__icon{
+    margin-right: var(--mb-0-75);
+}
+.skills__title{
+    font-size: var(--h3-font-size);
+}
+.skills__arrow{
+    margin-left: auto;
+    transition: .5s;
+}
+.skills__titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+.skills__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-mediun);
+}
+.skills__bar,
+.skills__percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+.skills__bar{
+    background-color: var(--first-color-lighter);
+}
+.skills__percentage{
+    display: block;
+    background-color: var(--first-color);
+}
+.skills__java{
+    width: 90%;
+}
+.skills__kotlin{
+    width: 50%;
+}
+.skills__roomdb{
+    width: 50%;
+}
+.skills__firebase{
+    width: 75%;
+}
+.skills__jetpack{
+    width: 40%;
+} 
+.skills__html{
+    width: 85%;
+}
+.skills__css{
+    width: 70%;
+}
+.skills__js{
+    width: 30%;
+}
+.skills__bootstrap{
+    width: 10%;
+}
+.skills__react{
+    width: 0%;
+}
+.skills__git{
+    width: 85%;
+}
+.skills__github{
+    width: 90%;
+}
+.skills__android{
+    width: 85%;
+}
+.skills__vscode{
+    width: 85%;
+}
+.skills__writing{
+    width: 80%;
+}
+.skills__designing{
+    width: 80%;
+}
+.skills__problemsolve{
+    width: 85%;
+}
+.skills__close .skills__list{
+    height: 0;
+    overflow: hidden;
+}
+.skills__open .skills__arrow{
+    transform: rotate(-180deg);
 }
