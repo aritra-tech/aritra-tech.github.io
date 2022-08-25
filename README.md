@@ -13,14 +13,11 @@
   
 </div>
 
-
-⭐ Star this repo on GitHub — it helps!
-
 ## Features 📋
 
 ⚡️ Fully Responsive.\
-⚡️ Valid HTML5 & CSS3.\
-⚡️ Scrolling animation.\
+⚡️ Valid HTML5, CSS3 & JS.\
+⚡️ Beautiful UI
 
 
 ## Sections 📚
@@ -34,9 +31,9 @@
 ## Tools Used 🛠️
 
 - [**GitHub Pages**](https://docs.github.com/en/pages) - To host my personal website (HTML, CSS, JS).
-- [**Swiper.js**](https://swiperjs.com/) - JavaScript Library
-- [**BoxIcons**](https://boxicons.com/) - Ready-to-use high-quality SVG icons
+- [**IconScout**](https://iconscout.com/unicons) - Curated SVGs, Vector Icons, Illustrations, 3D graphics, and Lottie Animations.
 
+<!----
 ## Contributing 💡
 
 #### Step 1
@@ -55,3 +52,5 @@
 #### Step 3
 
 - 🔃 Create a new pull request.
+
+--->
