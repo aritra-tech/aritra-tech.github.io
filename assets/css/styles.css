@@ -383,50 +383,51 @@ img{
 /* QUALIFICATION */
 .section_title{
     text-align: center;
+    font-size: var(--h1-font-size);
 }
 .qualification_tabs {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2);
-  }
+}
   
 .qualification_button {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     color: var(--first-color);
     cursor: pointer;
-  }
+}
   
 .qualification_button:hover {
     color: var(--first-color);
-  }
+}
   
 .qualification_icon {
     font-size: 1.8rem;
     margin-right: var(--mb-0-25);
-  }
+}
   
 .qualification_data {
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
-  }
+}
   
 .qualification_title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-  }
+}
   
 .qualification_subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
-  }
+}
   
 .qualification_calendar {
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
-  }
+}
   
 .qualification_circle {
     display: inline-block;
@@ -434,7 +435,7 @@ img{
     height: 13px;
     background-color: var(--first-color);
     border-radius: 50%;
-  }
+}
   
 .qualification_line {
     display: block;
@@ -442,12 +443,68 @@ img{
     height: 100%;
     background-color: var(--first-color);
     transform: translate(6px, -7px);
-  }
+}
   
 .qualification-content {
     display: block;
-  }
+}
   
 .qualification-inactive {
     display: none;
-  }
+}
+
+/* FOOTER  */
+.footer {
+    padding-top: 2rem;
+}
+  
+  .footer_container {
+    row-gap: 3.5rem;
+}
+  
+.footer_bg {
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+}
+  
+.footer_title {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+  
+.footer_subtitle {
+    font-size: var(--small-font-size);
+}
+  
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+  
+.footer_title,
+.footer_subtitle,
+.footer_link,
+.footer_social {
+    color: #fff;
+}
+  
+.footer_link:hover {
+    color: var(--first-color-lighter);
+}
+  
+.footer_social {
+    font-size: 1.25rem;
+    margin-right: var(--mb-1-5);
+}
+  
+.footer_social:hover {
+    color: var(--first-color-lighter);
+}
+  
+.footer_copy {
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    color: var(--text-color-light);
+    margin-top: var(--mb-3);
+}
