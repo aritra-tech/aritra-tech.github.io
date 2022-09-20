@@ -513,3 +513,36 @@ img{
 .scroll-header{
     box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
 }
+
+/* MEDIA QUERIES */
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .container {
+      margin-left: var(--mb-1);
+      margin-right: var(--mb-1);
+    }
+  
+    .nav__menu {
+      padding: 2rem 0.25rem 4rem;
+    }
+  
+    .nav__list {
+      column-gap: 0;
+    }
+  
+    .home__content {
+      grid-template-columns: 0.25fr 3fr;
+    }
+  
+    .home__blob {
+      width: 180px;
+    }
+  
+    .skills__title {
+      font-size: var(--normal-font-size);
+    }
+  
+    .qualification__data {
+      gap: 0.5rem;
+    }
+}
