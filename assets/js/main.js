@@ -76,3 +76,18 @@ function scrollHeader(){
     if(this.scrollY >=80) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
+
+// Projects Swiper
+
+let swiper = new Swiper('.portfolio__container', {
+    cssMode: true,
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});
