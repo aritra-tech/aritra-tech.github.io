@@ -256,7 +256,7 @@ img{
 
 /*==== About ====*/
 .about__img{
-    width: 200px;
+    width: 100px;
     
     border-radius: .5rem;
     justify-self: center;
@@ -508,29 +508,29 @@ img{
     outline: none;
 }
 /* FOOTER  */
-.footer {
+.footer{
     padding-top: 2rem;
 }
   
-  .footer_container {
+.footer_container{
     row-gap: 3.5rem;
 }
   
-.footer_bg {
+.footer_bg{
     background-color: var(--first-color-second);
     padding: 2rem 0 3rem;
 }
   
-.footer_title {
+.footer_title{
     font-size: var(--h1-font-size);
     margin-bottom: var(--mb-0-25);
 }
   
-.footer_subtitle {
+.footer_subtitle{
     font-size: var(--small-font-size);
 }
   
-.footer_links {
+.footer_links{
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
@@ -547,16 +547,16 @@ img{
     color: var(--first-color-lighter);
 }
   
-.footer_social {
+.footer_social{
     font-size: 1.25rem;
     margin-right: var(--mb-1-5);
 }
   
-.footer_social:hover {
+.footer_social:hover{
     color: var(--first-color-lighter);
 }
   
-.footer_copy {
+.footer_copy{
     font-size: var(--smaller-font-size);
     text-align: center;
     color: var(--text-color-light);
@@ -576,23 +576,23 @@ img{
       margin-right: var(--mb-1);
     }
   
-    .nav__menu {
+    .nav__menu{
       padding: 2rem 0.25rem 4rem;
     }
   
-    .nav__list {
+    .nav__list{
       column-gap: 0;
     }
   
-    .home__content {
+    .home__content{
       grid-template-columns: 0.25fr 3fr;
     }
   
-    .home__blob {
+    .home__blob{
       width: 180px;
     }
   
-    .skills__title {
+    .skills__title{
       font-size: var(--normal-font-size);
     }
   
@@ -618,6 +618,7 @@ img{
   
     .about__container,
     .skills__container,
+    .portfolio__content
     .footer__container{
       grid-template-columns: repeat(2, 1fr);
     }
@@ -698,6 +699,12 @@ img{
     .qualification_sections{
         grid-template-columns: .5fr;
     }
+    .portfolio__img{
+        width: 320px;
+    }
+    .portfolio__content{
+        align-items: center;
+    }
     .footer__container{
         grid-template-columns: repeat(3,1fr);
     }
@@ -721,5 +728,20 @@ img{
     }
     .home__social{
         transform: translateX(-6rem);
+    }
+    .portfolio__content{
+        column-gap: 5rem;
+    }
+    .swiper-portfolio-icon{
+        font-size: 3.5rem;
+    }
+    .swiper-button-prev{
+        left: -3.5rem;
+    }
+    .swiper-button-next{
+        right: -3.5rem;
+    }
+    .swiper-container-horizontal > .swiper-pagination-bullets{
+        bottom: -4.5rem;
     }
 }
